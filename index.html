@@ -3,9 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>NJY</title>
 	<link rel="stylesheet" href="./style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 </head>
 
 <body>
@@ -13,8 +15,9 @@
 		<nav id="nav-title">
 			<div style="font-size: 1.5rem; margin: auto 1rem;">Jooyoung Noh</div>
 			<!--<div style="font-size: 1rem; margin: auto 1rem; margin-bottom: 0.8rem;">Portfolio for 2021 NEXT TECH</div>-->
+			<div class="material-icons md-light md-inactive" id="nav-icon">menu</div>
 		</nav>
-		<nav>
+		<nav id="nav-menu-parent">
 			<ul id="nav-menu">
 				<li class="nav-item" id="nav-cur"><a href="" style="color: white;">Home</a></li>
 				<li class="nav-item"><a href="">Drone Project</a></li>
@@ -25,12 +28,13 @@
 
 	<div id="wrapper">
 		<footer>
-			<div style="width: 1200px; margin: auto; display: flex; justify-content: space-between;">
+			<div style="max-width: 1200px; margin: auto; display: flex; justify-content: space-between;">
 				<div style="margin: 1rem;">Copyright © Jooyoung Noh</div>
 				<nav class="fnav-item"><a href="https://github.com/njy-ydp">GitHub</a></nav>
 			</div>
 		</footer>
 	</div>
+	<script src="./script.js"></script>
 </body>
 
 </html>
