@@ -36,9 +36,22 @@ header {
 	}
 }
 
+#sub-title {
+	font-size: 1rem;
+	margin: auto 1rem;
+	margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+	#sub-title {
+		display: none;
+	}
+}
+
 #nav-icon {
 	margin: auto 1rem;
 	cursor: pointer;
+	transition: color 0.5s;
 	display: none;
 }
 
@@ -73,7 +86,7 @@ header {
 		background: #182028;
 		position: relative;
 		bottom: 10.1rem;
-		transition: all 0.4s ease;
+		transition: bottom 0.4s ease;
 		z-index: -1;
 	}
 }
@@ -85,7 +98,7 @@ header {
 .nav-item a {
 	color: #aaaaaa;
 	text-decoration: none;
-	transition: all 0.5s;
+	transition: color 0.5s;
 	position: relative;
 }
 
@@ -139,6 +152,12 @@ footer {
 	font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+	footer {
+		font-size: 0.9rem;
+	}
+}
+
 .fnav-item {
 	margin: 1rem;
 }
@@ -146,7 +165,7 @@ footer {
 .fnav-item a {
 	color: #aaaaaa;
 	text-decoration: none;
-	transition: all 0.5s;
+	transition: color 0.5s;
 	position: relative;
 }
 
