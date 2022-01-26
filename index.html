@@ -13,24 +13,44 @@
 <body>
 	<header>
 		<nav id="nav-title">
-			<div style="font-size: 1.5rem; margin: auto 1rem;">Jooyoung Noh</div>
-			<div id="sub-title">Portfolio for 2021 NEXT TECH</div>
+			<div style="font-size: 1.5rem; margin: auto 1rem;"><a href="./index.html">Jooyoung Noh</a></div>
 			<div class="material-icons md-light md-inactive" id="nav-icon">menu</div>
 		</nav>
-		<nav id="nav-menu-parent">
+		<nav>
 			<ul id="nav-menu">
-				<li class="nav-item" id="nav-cur"><a href="" style="color: white;">Home</a></li>
-				<li class="nav-item"><a href="">Drone Project</a></li>
+				<li class="nav-item no-sub" id="nav-cur"><a href="./index.html" style="color: white;">Home</a></li>
+				<li class="nav-item"><a href="https://njy-ydp.github.io/Drone/material.html">Drone Project</a></li>
 				<li class="nav-item"><a href="">Earthquake Discord Bot</a></li>
 			</ul>
 		</nav>
 	</header>
 
+	<div class="mini-header">
+		<nav id="nav-menu-parent">
+			<ul>
+				<li class="nav-item no-sub" id="nav-cur-mini"><a href="./index.html" style="color: white;">Home</a></li>
+				<li class="nav-item drone-btn"><a href="https://njy-ydp.github.io/Drone/material.html">Drone Project</a></li>
+				<li class="nav-item"><a href="">Earthquake Discord Bot</a></li>
+			</ul>
+			<div class="menu-bg"></div>
+		</nav>
+		<nav id="drone-sub-parent">
+			<ul id="drone-sub">
+				<li id="drone-sub-title">Drone</li>
+				<li><a href="https://njy-ydp.github.io/Drone/material.html">재료</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/design.html">디자인</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/prototype.html">프로토타입</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/mainmodel.html">본 모델</a></li>
+				<li><a href="https://njy-ydp.github.io/Drone/references.html">참고자료</a></li>
+			</ul>
+		</nav>
+	</div>
+
 	<div id="wrapper">
 		<footer>
 			<div style="max-width: 1200px; margin: auto; display: flex; justify-content: space-between;">
 				<div style="margin: 1rem;">Copyright © Jooyoung Noh</div>
-				<nav class="fnav-item"><a href="https://github.com/njy-ydp">GitHub</a></nav>
+				<a href="https://github.com/njy-ydp" style="height: 1.5rem; margin: 1rem;"><img src="./src/GitHub-Mark-Light-32px.png" style="height: 1.5rem;"></a>
 			</div>
 		</footer>
 	</div>
