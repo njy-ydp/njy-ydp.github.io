@@ -18,6 +18,10 @@ header {
 	z-index: 2;
 }
 
+.mini-header {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
 #nav-title {
 	max-width: 1200px;
 	margin: auto;
