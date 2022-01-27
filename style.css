@@ -352,6 +352,58 @@ header {
 	margin-bottom: 1rem;
 }
 
+.module-container {
+	max-width: 100vw;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	background: white;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+	.module-container {
+		height: 50vh;
+	}
+}
+
+.module-container .title {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	font-size: 3rem;
+	position: absolute;
+	z-index: 1;
+	color: black;
+	margin-top: 4rem;
+}
+
+.module-container .link {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500;
+	position: absolute;
+	z-index: 1;
+	margin-top: 8rem;
+}
+
+.module-container .link a {
+	text-decoration: none;
+	color: #5fa3e7;
+}
+
+.module-container .bg {
+	width: 70%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+	.module-container .bg {
+		width: 140%;
+		object-fit: contain;
+	}
+}
+
 
 /* Footer */
 footer {
