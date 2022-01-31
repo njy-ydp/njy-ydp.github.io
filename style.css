@@ -15,7 +15,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 2;
+	z-index: 3;
 }
 
 .mini-header {
@@ -72,7 +72,7 @@ header {
 @media (max-width: 768px) {
 
 	.show-nav-index {
-		z-index: 1 !important;
+		z-index: 2 !important;
 	}
 	
 	.show-nav ul {
