@@ -3,6 +3,8 @@ const nav = document.querySelector("#nav-menu-parent");
 const navBg = document.querySelector(".menu-bg");
 const droneBtn = document.querySelector(".drone-btn");
 const droneMenu = document.querySelector("#drone-sub-parent");
+const eqdbBtn = document.querySelector(".eqdb-btn");
+const eqdbMenu = document.querySelector("#eqdb-sub-parent");
 
 var isNavOpen = false;
 
@@ -15,6 +17,7 @@ function toggleNav() {
     }
     else {
         droneMenu.classList.remove("show-sub");
+        eqdbMenu.classList.remove("show-sub");
         nav.classList.remove("show-nav");
         navBtn.classList.add("md-inactive");
         setTimeout(() => {
@@ -34,4 +37,8 @@ navBg.addEventListener("click", () => {
 
 droneBtn.addEventListener("click", () => {
     droneMenu.classList.toggle("show-sub");
+});
+
+eqdbBtn.addEventListener("click", () => {
+    eqdbMenu.classList.toggle("show-sub");
 });
